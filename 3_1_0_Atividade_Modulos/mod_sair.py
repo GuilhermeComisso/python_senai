@@ -11,6 +11,7 @@ def finalizar():
         except:
             print("Valor inválido!")
     if opcao in("s", "S"):
+        print("\nPrograma encerrado. ")
         return False
     else:
         return True
