@@ -1,7 +1,7 @@
 import mod_msg
 import mod_inputs
 
-USUARIO = "guilherme"
+USUARIO = "marilia"
 SENHA = "12345"
 
 def valida_usuario(user):
@@ -29,6 +29,6 @@ def main():
     mod_msg.msg_login_ini()
     usuario_validado = valida_usuario(USUARIO)
     senha_validada = valida_senha(SENHA)
+    menu_principal.main()
+   
 
-    print("\nSucesso! O usuário é: ", usuario_validado)
-    print("A senha é: ", senha_validada)
