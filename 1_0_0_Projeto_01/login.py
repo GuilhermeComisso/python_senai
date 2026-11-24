@@ -1,7 +1,8 @@
 import mod_msg
 import mod_inputs
+import menu_principal
 
-USUARIO = "marilia"
+USUARIO =  "guilherme"
 SENHA = "12345"
 
 def valida_usuario(user):
@@ -30,5 +31,3 @@ def main():
     usuario_validado = valida_usuario(USUARIO)
     senha_validada = valida_senha(SENHA)
     menu_principal.main()
-   
-
