@@ -22,15 +22,15 @@ def msg_calc_ini():
     print("##############################\n")
 
 def msg_calcula_frete():
-    print(" ESCOLHA UM DESTINO ")
-    print(" SAIR - 0 >>")
-    print(" CONGONHAS/SP - 1 ")
-    print(" GUARULHOS/SP - 2 ")
+    print("< ESCOLHA UM DESTINO >")
+    print(" SAIR -------------- 0")
+    print(" CONGONHAS/SP ------ 1 ")
+    print(" GUARULHOS/SP ------ 2 ")
     print(" CAMPO DE MARTE/SP - 3 ")
-    print(" PINTO MARTINS/CE - 4 ") 
-    print(" EDUARDO GOMES/AM - 5 \n")  
+    print(" PINTO MARTINS/CE -- 4 ") 
+    print(" EDUARDO GOMES/AM -- 5 \n")  
 
 def msg_final_programa():
-    print("#####################################################")
-    print("<<<< OBRIGADO POR UTILIZAR O PROGRAMA COTA-FRETE >>>>")
-    print("################# VOLTE SEMPRE !!!! #################\n")
+    print("##########################################################")
+    print("<<<<<< OBRIGADO POR UTILIZAR O PROGRAMA COTA-FRETE >>>>>>>")
+    print("##################### VOLTE SEMPRE !!!! ##################\n")
